@@ -1,0 +1,36 @@
+flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+  color: "#0C283E"
+  image: "assets/splash_screen/logo.png"
+  branding: "assets/splash_screen/branding.png"
+  branding_mode: bottom
+  branding_bottom_padding: 24
+
+  # Splash for dark mode
+  #color_dark: "#042a49"
+  #background_image_dark: "assets/dark-background.png"
+  #image_dark: assets/splash-invert.png
+  #branding_dark: assets/dart_dark.png
+
+  android_12:
+    color: "#0C283E"
+    image: "assets/splash_screen/logo.png"
+    branding: "assets/splash_screen/branding.png"
+    # The image parameter sets the splash screen icon image.  If this parameter is not specified,
+    # the app's launcher icon will be used instead.
+    # Please note that the splash screen will be clipped to a circle on the center of the screen.
+    # App icon with an icon background: This should be 960×960 pixels, and fit within a circle
+    # 640 pixels in diameter.
+    # App icon without an icon background: This should be 1152×1152 pixels, and fit within a circle
+    # 768 pixels in diameter.
+    #image: assets/android12splash.png
+
+    # The branding property allows you to specify an image used as branding in the splash screen.
+    #branding: assets/dart.png
+
+    # Dark mode for android
+    #image_dark: assets/android12splash-invert.png
+    #color_dark: "#042a49"
+    #icon_background_color_dark: "#eeeeee"
